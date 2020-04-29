@@ -2,7 +2,7 @@
 
 library(tidyverse)
 
-setwd("~/R scripts/Coursera---Exploratory-Data-Analysis/ExData_Plotting1")
+setwd("~/VINITA/GRAYDON/R scripts/Coursera---Exploratory-Data-Analysis/ExData_Plotting1")
 
 raw_data = read.table("household_power_consumption.txt", header=TRUE, sep=";", na.strings="?")
 

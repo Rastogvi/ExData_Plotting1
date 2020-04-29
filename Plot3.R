@@ -22,8 +22,6 @@ glimpse(Final_data)
 
 ## Plot the graph
 
-par(mfrow = c(1,1))
-
 plot(Final_data$Time, Final_data$Sub_metering_1, type = "l",col="black",
      ylab="Energy Sub metering", xlab="")
 lines(Final_data$Time, Final_data$Sub_metering_2, col="red")
